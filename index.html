@@ -5,25 +5,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- GOOGLE FONTS-->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <!--  PRECONNECT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <!-- CSS NORMALIZE -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
   </head>
 
-  <!--Body-->
+  <!-- BODY -->
   <body>
-    <!-- Header -->
+    <!-- HEADER -->
     <header class="page-header">
       <div class="container menu">
-        <!-- Navigation Bar -->
+        <!-- NAVIGATION BAR -->
         <nav class="navigation">
           <a href="./index.html" class="logo-link">
             <span class="logo">WEB</span>
@@ -43,7 +51,7 @@
           </ul>
         </nav>
 
-        <!-- Contacts Menu -->
+        <!-- CONTACTS MENU -->
         <ul class="contacts-menu list">
           <li class="item">
             <a href="mailto:info@devstudio.com" class="contact link"
@@ -59,25 +67,31 @@
       </div>
     </header>
 
-    <!-- Main -->
+    <!-- MAIN -->
     <main>
-      <!-- Hero Section -->
+      <!-- HERO SECTION -->
       <section class="hero bg-hero">
         <div class="container">
           <h1 class="hero-title">
             Effective Solutions<br />
             for Your Business
           </h1>
-          <!-- Order Service Button -->
+
+          <!-- ORDER SERVICE BUTTON -->
           <button type="button" class="button primary">Order Service</button>
         </div>
       </section>
 
-      <!-- Benefits Section -->
+      <!-- BENEFITS SECTION -->
       <section class="section">
         <div class="container">
           <ul class="benefits list">
             <li class="item">
+              <div class="svg-box">
+                <svg class="svg-icon" width="64" height="64">
+                  <use href="./images/icons-sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="title">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business<br />
@@ -86,6 +100,11 @@
               </p>
             </li>
             <li class="item">
+              <div class="svg-box">
+                <svg class="svg-icon" width="64" height="64">
+                  <use href="./images/icons-sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="title">Punctuality</h3>
               <p class="description">
                 Bring the key message to the<br />
@@ -94,6 +113,11 @@
               </p>
             </li>
             <li class="item">
+              <div class="svg-box">
+                <svg class="svg-icon" width="64" height="64">
+                  <use href="./images/icons-sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="title">Diligence</h3>
               <p class="description">
                 Research and confirm brands that<br />
@@ -102,6 +126,11 @@
               </p>
             </li>
             <li class="item">
+              <div class="svg-box">
+                <svg class="svg-icon" width="64" height="64">
+                  <use href="./images/icons-sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="title">Technologies</h3>
               <p class="description">
                 Design practice focused on digital<br />
@@ -113,7 +142,7 @@
         </div>
       </section>
 
-      <!-- What Are We Doing Section -->
+      <!-- WHAT ARE WE DOING SECTION -->
       <section class="section no-top-padding">
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
@@ -146,7 +175,7 @@
         </div>
       </section>
 
-      <!-- Team Section -->
+      <!-- TEAM SECTION -->
       <section class="section bg-team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
@@ -158,9 +187,24 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Mark Guerrero</h3>
-              <p class="position">Product Designer</p>
+              <div class="card-content">
+                <h3 class="name">Mark Guerrero</h3>
+                <p class="position">Product Designer</p>
+                <ul class="social-media list">
+                  <li class="sm-item">
+                    <a href="#" class="sm-link">
+                      <svg class="sm-svg" width="16" height="16">
+                        <use href=""></use>
+                      </svg>      
+                    </a>
+                  </li>
+                  <li class="sm-item"></li>
+                  <li class="sm-item"></li>
+                  <li class="sm-item"></li>
+                </ul>
+              </div>
             </li>
+
             <li class="item">
               <img
                 src="images/tom-ford.jpg"
@@ -168,9 +212,18 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Tom Ford</h3>
-              <p class="position">Frontend Developer</p>
+              <div class="card-content">
+                <h3 class="name">Tom Ford</h3>
+                <p class="position">Frontend Developer</p>
+                <ul class="social-media list">
+                  <li class="sm-item"></li>
+                  <li class="sm-item"></li>
+                  <li class="sm-item"></li>
+                  <li class="sm-item"></li>
+                </ul>
+              </div>
             </li>
+
             <li class="item">
               <img
                 src="images/camila-garcia.jpg"
@@ -178,9 +231,18 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Camila Garcia</h3>
-              <p class="position">Marketing</p>
+              <div class="card-content">
+                <h3 class="name">Camila Garcia</h3>
+                <p class="position">Marketing</p>
+                <ul class="social-media list">
+                  <li class="sm-item"></li>
+                  <li class="sm-item"></li>
+                  <li class="sm-item"></li>
+                  <li class="sm-item"></li>
+                </ul>
+              </div>
             </li>
+
             <li class="item">
               <img
                 src="images/daniel-wilson.jpg"
@@ -188,15 +250,21 @@
                 width="270"
                 height="260"
               />
+              <div class="card-content">
               <h3 class="name">Daniel Wilson</h3>
               <p class="position">UI Designer</p>
+              <ul class="social-media list">
+                <li class="sm-item"></li>
+                <li class="sm-item"></li>
+                <li class="sm-item"></li>
+                <li class="sm-item"></li>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer class="page-footer bg-footer">
       <div class="container">
         <a href="./index.html" class="logo-link">

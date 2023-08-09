@@ -61,7 +61,7 @@ p {
   padding: 60px;
 }
 
-/* Header */
+/* HEADER */
 .page-header {
   border-bottom: 1px solid var(--cornflower);
 }
@@ -80,7 +80,7 @@ p {
   align-items: center;
 }
 
-/* Navigation Bar */
+/* NAVIGATION BAR */
 .logo-link {
   text-decoration: none;
   color: var(--navy-blue);
@@ -127,7 +127,7 @@ p {
   color: var(--iris);
 }
 
-/* Contacts Menu */
+/* CONTACTS MENU */
 .contacts-menu {
   margin-left: auto;
 }
@@ -141,14 +141,19 @@ p {
   font-weight: 400;
 }
 
-/* Hero Section */
+/* HERO SECTION */
 .hero {
   padding: 200px 0;
   text-align: center;
 }
 
 .bg-hero {
-  background-color: var(--navy-blue);
+  padding: 188px 0;
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -161,7 +166,7 @@ p {
   margin-bottom: 30px;
 }
 
-/* Order Service Button */
+/* ORDER SERVICE BUTTON */
 .button {
   cursor: pointer;
   border-color: transparent;
@@ -188,7 +193,7 @@ p {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Benefits Section */
+/* BENEFITS SECTION */
 .section {
   padding: 120px 0;
 }
@@ -210,6 +215,17 @@ p {
   margin-top: 30px;
 }
 
+.svg-box {
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .benefits .title {
   color: var(--navy-blue);
   font-size: 20px;
@@ -226,7 +242,7 @@ p {
   margin-top: 10px;
 }
 
-/* What Are We Doing Section */
+/* WHAT ARE WE DOING SECTION */
 .section-title {
   color: var(--navy-blue);
   text-align: center;
@@ -309,8 +325,8 @@ p {
   padding-top: 17px;
 }
 
-/* CSS for Portfolio html */
-/* Filter Buttons */
+/* CSS for PORTFOLIO HTML */
+/* FILTER BUTTONS */
 .filters {
   display: flex;
   justify-content: center;
