@@ -348,27 +348,31 @@ p {
 }
 
 .customers-item {
-  width: 168px;
-  height: 88px;
+  width: calc(100% - 150px / 6);
+  height: 98px;
 }
 
 .customers-link {
   color: var(--light-slate-color);
   width: 100%;
   height: 100%;
-  border: 1 px solid color(var(--grey));
+  border: 1 px solid var(--light-slate-color);
   border-radius: 5px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .customers-link:hover,
 .customers-link:focus {
-  background-color: var(--ocean);
+  background-color: var(--white);
+  color: var(--ocean);
+  border-color: var(--ocean);
 }
 
 .customers-svg {
+  width: 104px;
+  height: 56px;
   fill: currentColor;
 }
 
