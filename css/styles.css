@@ -380,6 +380,26 @@ img {
 }
 
 /* FOOTER */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -12px;
+  margin-left: -50px;
+  align-items: baseline;
+}
+
+.footer-address {
+  margin-top: 12px;
+  margin-left: 25px;
+}
+
+.footer-block {
+  margin-left: 123px;
+}
+
+.footer-heading {
+}
+
 .page-footer {
   background: var(--navy-blue);
   padding: 60px 0 60px 60px;
