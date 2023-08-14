@@ -398,6 +398,7 @@ img {
 }
 
 .footer-heading {
+  color: var(--white);
 }
 
 .page-footer {
@@ -419,13 +420,6 @@ img {
 }
 
 /* FOOTER SOCIAL MEDIA  */
-.footer-sm {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 16px;
-}
-
 .footer-content {
   margin-left: 120px;
 }
@@ -439,8 +433,8 @@ img {
 .footer-sm {
   display: flex;
   justify-content: center;
-  gap: 24px;
-  margin-top: 8px;
+  gap: 16px;
+  padding-top: 10px;
 }
 
 .footer-sm-item {
